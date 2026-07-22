@@ -1,5 +1,8 @@
 set shell := ["bash", "-cu"]
-set windows-shell := ["C:/Program Files/Git/bin/bash.exe", "-cu"]
+# Recipes are written in bash; on Windows we route through a small PowerShell
+# wrapper that locates Git Bash on this machine instead of hardcoding a path
+# (Git isn't always installed to "C:/Program Files/Git" — see scripts/win-bash.ps1).
+set windows-shell := ["powershell.exe", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", "scripts/win-bash.ps1"]
 
 default:
     @just --list
