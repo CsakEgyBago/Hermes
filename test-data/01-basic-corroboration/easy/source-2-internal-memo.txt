@@ -1,0 +1,1 @@
+The Q3 server outage was caused by a memory leak in the caching layer. Customer support received over two hundred tickets during the incident. Leadership has asked for a full postmortem by Friday.

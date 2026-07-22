@@ -1,0 +1,1 @@
+Customer support was told the launch was delayed by one week due to a critical security bug found during final testing. The beta tester group was expanded to catch similar bugs earlier next time. No customer data was affected by the bug.

@@ -1,0 +1,1 @@
+The auth service migration to the new identity provider is now complete. Finance closed out the migration budget line this week.

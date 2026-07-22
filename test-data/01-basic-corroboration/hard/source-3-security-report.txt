@@ -1,0 +1,1 @@
+A critical security bug was discovered during final testing, which pushed the product launch back by one week. Beta testers had flagged a related but distinct performance issue two weeks earlier that was already fixed. The vulnerability allowed unauthorized access to draft documents.

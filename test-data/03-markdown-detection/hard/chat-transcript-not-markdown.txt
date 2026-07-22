@@ -1,0 +1,2 @@
+- alex: did you run the `deploy` command yet
+- sam: yeah just finished, all good

@@ -1,0 +1,1 @@
+Yesterday's checkout errors happened because the payment worker ran out of memory. The incident review is scheduled for next Tuesday. Overall customer impact was limited to a twenty-minute window.

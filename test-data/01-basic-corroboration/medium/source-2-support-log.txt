@@ -1,0 +1,1 @@
+Support tickets mentioned checkout failures, which the engineering team linked to the payment worker running out of memory. A few customers reported being double-charged, and refunds are being processed manually today. The incident review is scheduled for next Tuesday.

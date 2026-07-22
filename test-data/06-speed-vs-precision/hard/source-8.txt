@@ -1,0 +1,1 @@
+The security team rotated all internal API keys as a precaution. Training on the new expense system starts next week.

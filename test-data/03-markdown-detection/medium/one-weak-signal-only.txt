@@ -1,0 +1,4 @@
+There are three steps to follow:
+1. Open the settings panel
+2. Enable notifications
+3. Save your changes

@@ -1,0 +1,1 @@
+Root cause: the payment worker ran out of memory, causing checkout errors during the incident window. Customers affected were offered a ten percent discount as an apology. Monitoring alerts were delayed by several minutes due to a dashboard outage.

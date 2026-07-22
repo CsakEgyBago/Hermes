@@ -1,0 +1,1 @@
+During yesterday's incident, checkout errors were traced to the payment worker running out of memory. The on-call engineer restarted the payment worker as a first response. Customers affected were offered a ten percent discount as an apology.

@@ -1,0 +1,1 @@
+The mailroom now processes packages twice daily instead of once.

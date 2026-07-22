@@ -1,0 +1,1 @@
+The product launch was delayed by one week due to a critical security bug found during final testing. Marketing campaign assets needed to be revised for the new date. Our unit test suite passed but didn't catch the issue because it only covers server-side code paths.
