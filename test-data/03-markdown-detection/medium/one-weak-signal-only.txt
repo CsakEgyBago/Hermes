@@ -6,3 +6,5 @@ There are five steps to follow when setting up the new workstation:
 5. Confirm the sync indicator turns green
 
 The whole process usually takes about ten minutes if nothing goes wrong along the way. Reach out to IT support if any step fails to complete.
+
+A couple of additional notes for anyone doing this for the first time. Step three sometimes takes longer than expected if the application has a lot of cached data to sync through, so don't worry if the save spinner runs for a minute or two. If step five never turns green even after restarting, the most common fix is to sign out completely and sign back in rather than restarting the application again. IT support has seen this setup process go smoothly for the vast majority of new workstations, so most people won't need to escalate at all.

@@ -23,3 +23,17 @@ echo "this shell snippet should disappear too"
 ```
 
 Thanks again for bearing with us through a busy release cycle.
+
+## Performance Details
+
+Page load times improved by roughly **thirty percent** on average across our tested devices, with the biggest gains showing up on _lower-end mobile hardware_ where the old rendering path was especially slow. A full breakdown of the benchmark methodology is available in the [engineering blog](https://example.com/blog/performance).
+
+- Initial render time down significantly
+- Time to interactive improved on nearly every page
+- Memory usage reduced on long browsing sessions
+
+```json
+{ "note": "this json snippet should also disappear entirely" }
+```
+
+> One more thank-you to the beta testers who caught two regressions before this went out to everyone.

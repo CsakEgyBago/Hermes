@@ -5,3 +5,20 @@ y = x * 3
 if y > 5:
     print('big number')
 # NOTE: remember to remove this debug print before merging
+
+def compute_total(items):
+    total = 0
+    for item in items:
+        total += item.price * item.quantity
+    return total
+
+# FIXME: this doesn't handle negative quantities correctly
+class Cart:
+    def __init__(self):
+        self.items = []
+
+    def add(self, item):
+        self.items.append(item)
+        return len(self.items)
+
+# TODO: add unit tests for the discount logic once it's finalized

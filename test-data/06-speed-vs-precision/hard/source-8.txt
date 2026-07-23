@@ -1,1 +1,3 @@
 The security team rotated all internal API keys as a precaution. Training on the new expense system starts next week. The rollout will be staged by team over three weeks.
+
+The key rotation was prompted by an unrelated third-party vendor disclosing a breach on their end, and while there was no evidence any of the company's own keys were exposed, the security team decided a precautionary rotation was worth the modest disruption. A short internal notice went out explaining which integrations would need to be updated with new credentials and by when. The staged expense system training rollout is meant to keep the help desk from being overwhelmed by questions all at once, with each team getting a dedicated session before gaining access to the new tool.

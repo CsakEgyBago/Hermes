@@ -1,1 +1,3 @@
 The migration to the new billing system is now complete. Finance confirmed the final reconciliation on Monday. The old billing records will be archived by the end of the year.
+
+Finance's own note adds a bit more color: the reconciliation turned up two minor discrepancies, both traced to test transactions that had never been cleaned out of the staging environment, and neither affected any real customer account. The archival process for the old records will follow the standard seven-year retention policy rather than being deleted outright, in case they're needed for a future audit. Finance also mentioned that the new system's reporting exports have already saved the team a noticeable amount of manual spreadsheet work during the first month-end close since the migration.

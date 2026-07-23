@@ -1,1 +1,3 @@
-The mailroom now processes packages twice daily instead of once.
+The mailroom now processes packages twice daily instead of once. The change was prompted by a steady rise in order volume.
+
+Package volume has climbed noticeably over the past year, driven largely by an increase in equipment shipments to remote employees who previously would have picked supplies up in person. The mailroom team added the second daily processing window as a first step short of hiring additional staff, and management has said they'll revisit staffing levels again if volume keeps climbing at the current pace. Early results suggest the second window has meaningfully reduced the average time a package sits before being delivered to its recipient's desk.

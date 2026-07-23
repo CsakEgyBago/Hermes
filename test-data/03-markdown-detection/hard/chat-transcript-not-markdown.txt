@@ -3,3 +3,11 @@
 - alex: nice, can you post the build number in here too
 - sam: sure, one sec
 - sam: it's build 4821
+- alex: cool, updating the release doc now
+- jamie: hey what did I miss
+- alex: just finished deploying build 4821, all good
+- jamie: nice one, I'll pull the new build locally and smoke test it
+- sam: let me know if anything looks off
+- jamie: will do, give me like ten minutes
+- jamie: ok tested the main flows, everything looks fine on my end
+- alex: awesome, thanks both

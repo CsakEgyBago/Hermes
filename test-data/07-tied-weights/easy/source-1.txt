@@ -1,1 +1,3 @@
 The archive server was decommissioned last Friday. A new backup rotation script now runs nightly.
+
+The decommissioning was the last step in a migration that had been underway for several months, moving archived data onto cheaper cold storage rather than keeping it on a dedicated always-on server. IT confirmed that no active workloads depended on the old archive server by the time it was powered down, so the transition happened without any scheduled downtime window. The new nightly backup rotation script replaces a manual process that one engineer used to kick off by hand roughly once a week, which had occasionally been forgotten during busy stretches.

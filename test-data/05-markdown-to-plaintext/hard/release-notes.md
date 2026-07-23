@@ -35,5 +35,27 @@ A second reference-style link for good measure: [read the FAQ][faq].
 key: this yaml block should disappear as well
 ```
 
+## Additional Changes
+
+A third image showing the new dashboard layout: ![new dashboard layout](https://example.com/new-dashboard.png)
+
+> A third-level nested caveat for good measure:
+>
+> > This applies only to accounts on the legacy billing plan.
+> >
+> > > And this innermost note applies only to legacy accounts created before 2020.
+
+```sql
+SELECT * FROM this_table_reference_should_disappear;
+```
+
+| Region | Signups | Change |
+| ------ | ------- | ------ |
+| East   | 4,120   | +8%    |
+| West   | 3,900   | +5%    |
+
+A final reference-style link: [contact support][support] if any of this causes trouble.
+
 [ref]: https://example.com/migration-guide
 [faq]: https://example.com/faq
+[support]: https://example.com/support

@@ -4,3 +4,5 @@ Someone pulled this line out of an old planning doc and pasted it into today's n
 > It came up again in this week's retro, almost word for word.
 
 No other part of this note is quoted from anywhere; the rest is just a plain summary of what was discussed afterward.
+
+The retro itself covered a handful of other topics too, though none of them were considered important enough to quote directly. Most of the discussion centered on how to better track follow-up items between meetings, since a few had slipped through the cracks over the past month. One suggestion that gained some traction was assigning a single owner to close out each meeting's action items within a week, rather than leaving it ambiguous who was responsible. The note-taker mentioned they'd try that approach starting with the very next retro to see if it actually helps.
