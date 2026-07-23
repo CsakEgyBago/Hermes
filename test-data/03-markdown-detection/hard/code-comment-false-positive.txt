@@ -1,3 +1,7 @@
 # TODO: fix this before shipping
 print('hello world')
 x = 1 + 2
+y = x * 3
+if y > 5:
+    print('big number')
+# NOTE: remember to remove this debug print before merging

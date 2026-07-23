@@ -1,1 +1,1 @@
-An external audit confirmed that the caching layer rewrite improved server response times.
+An external audit confirmed that the caching layer rewrite improved server response times. The audit was conducted by an outside consulting firm over two weeks. Findings will be presented to leadership before the next board meeting.

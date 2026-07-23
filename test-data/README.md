@@ -41,8 +41,8 @@ replayed in **AI mode** (see the note at the bottom).
   rank everything as a flat tie (an edge-suppression bug). To see it fixed,
   paste `01-basic-corroboration/single-source-bug-demo.txt` alone into one
   box and Analyze (Statistical, no topic) — verified: the repeated
-  "database migration" sentence comes out at weight **100** while the two
-  unrelated one-off sentences sit at **0**, instead of everything tying.
+  "database migration" sentence comes out at weight **100** while the
+  unrelated one-off sentences all sit at **0**, instead of everything tying.
 - **Summary panel**: a "Top result" callout now sits above the ranked list —
   headline (the #1 point) plus a synthesized blurb.
 - **Collapsed-by-default sections**: Sources, "How this was computed", and
@@ -183,11 +183,15 @@ doesn't parse full context:
 - `code-comment-false-positive.txt`: a Python-style `# TODO:` comment reads as
   a Markdown heading (strong signal) and **will** auto-check — indistinguishable
   from a real heading by this heuristic.
-- `escaped-markdown-false-positive.txt`: `\*\*escaped bold\*\*` still contains
-  a literal `**...**` substring once you ignore the backslashes, so it **will**
-  trip the bold signal even though the author meant to escape it.
-- `chat-transcript-not-markdown.txt`: a two-line chat log with `- name:` lines
-  and a backtick command reads as list + inline-code (two weak signals) and
+- `escaped-markdown-false-positive.txt`: the author only escaped the leading
+  character of each pair (`\**bold**`, `` \`code\` ``) — a common mistake,
+  since real Markdown requires escaping every special character to fully
+  suppress it. The trailing `**` and `` ` `` are still unescaped and adjacent,
+  so both the bold and inline-code weak signals fire (two signals, past the
+  threshold) and this still gets auto-detected as Markdown despite the
+  author's best effort to escape it.
+- `chat-transcript-not-markdown.txt`: a chat log with `- name:` lines and a
+  backtick command reads as list + inline-code (two weak signals) and
   **will** auto-check, despite being a transcript rather than authored Markdown.
 
 ---
@@ -338,14 +342,18 @@ one fully isolated sentence with no partner at all).
 
 **Expect (verified, Precise preset):** the tightly-worded headquarters pair
 merges into one point at weight **100**; the more loosely-worded mailroom pair
-stays as **two separate points, both tied at weight 67**; the isolated CEO
-sentence comes in **last, at weight 0**. That last part is worth sitting with:
-the CEO-appointment sentence is arguably the most "newsworthy" one-off fact
-here, but the statistical algorithm ranks by corroboration _structure_, not
+stays as **two separate points, both tied at weight 74**; the isolated
+CEO-appointment sentence lands well below both at **21**, beneath even the
+extra filler sentences in that same source. That's worth sitting with: the
+CEO-appointment sentence is arguably the most "newsworthy" one-off fact here,
+but the statistical algorithm ranks by corroboration _structure_, not
 perceived narrative importance — an uncorroborated point never outranks a
 corroborated one, no matter how significant it sounds. That's a real,
 worth-knowing tradeoff of this approach vs. AI mode, which can and does weigh
-narrative significance directly.
+narrative significance directly. (Exact numbers drift a little any time the
+surrounding text changes — TF-IDF's idf weighting is corpus-wide — but the
+ordering and the near-tie between the two mailroom points are the stable,
+structural part of this demo.)
 
 ---
 

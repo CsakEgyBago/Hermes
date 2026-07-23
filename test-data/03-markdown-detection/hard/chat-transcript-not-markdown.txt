@@ -1,2 +1,5 @@
 - alex: did you run the `deploy` command yet
 - sam: yeah just finished, all good
+- alex: nice, can you post the build number in here too
+- sam: sure, one sec
+- sam: it's build 4821

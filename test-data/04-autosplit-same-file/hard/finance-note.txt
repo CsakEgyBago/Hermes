@@ -1,1 +1,1 @@
-The auth service migration to the new identity provider is now complete. Finance closed out the migration budget line this week.
+The auth service migration to the new identity provider is now complete. Finance closed out the migration budget line this week. The migration budget came in slightly under the original estimate. A closing reconciliation report will be shared with stakeholders.

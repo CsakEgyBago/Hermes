@@ -1,1 +1,1 @@
-The team lunch was moved to Thursday due to a room booking conflict. A critical security vulnerability was discovered in the authentication library.
+The team lunch was moved to Thursday due to a room booking conflict. A critical security vulnerability was discovered in the authentication library. Engineers confirmed a fix has already been deployed to staging. A password reset was recommended for anyone using the shared service account. The security team will publish a short summary once the fix is verified.

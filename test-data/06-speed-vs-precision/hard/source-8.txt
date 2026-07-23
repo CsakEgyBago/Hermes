@@ -1,1 +1,1 @@
-The security team rotated all internal API keys as a precaution. Training on the new expense system starts next week.
+The security team rotated all internal API keys as a precaution. Training on the new expense system starts next week. The rollout will be staged by team over three weeks.

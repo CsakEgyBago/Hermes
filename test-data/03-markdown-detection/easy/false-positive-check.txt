@@ -1,1 +1,1 @@
-It costs $5 * 2 for the combo deal, but that is not much of a bargain really.
+It costs $5 * 2 for the combo deal, but that is not much of a bargain really. A single asterisk like that is just multiplication, not emphasis, so this paragraph should not be flagged as Markdown. There's also a stray greater-than sign > buried mid-sentence here, which shouldn't count as a blockquote since it never starts a line.

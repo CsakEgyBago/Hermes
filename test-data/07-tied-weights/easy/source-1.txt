@@ -1,1 +1,1 @@
-The archive server was decommissioned last Friday.
+The archive server was decommissioned last Friday. A new backup rotation script now runs nightly.

@@ -1,1 +1,1 @@
-The new expense reporting tool rolled out to all departments this month. IT reported a smooth migration with no downtime.
+The new expense reporting tool rolled out to all departments this month. IT reported a smooth migration with no downtime. A rollback plan was prepared in case issues surfaced after go-live. The help desk saw a small spike in password reset requests unrelated to the change. Access permissions were audited before the cutover.

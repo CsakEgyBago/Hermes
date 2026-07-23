@@ -1,4 +1,8 @@
-There are three steps to follow:
+There are five steps to follow when setting up the new workstation:
 1. Open the settings panel
 2. Enable notifications
 3. Save your changes
+4. Restart the application
+5. Confirm the sync indicator turns green
+
+The whole process usually takes about ten minutes if nothing goes wrong along the way. Reach out to IT support if any step fails to complete.
